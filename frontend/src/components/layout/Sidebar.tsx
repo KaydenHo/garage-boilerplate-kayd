@@ -1,9 +1,10 @@
 import Link from 'next/link'
-import { LayoutDashboard, User, Settings } from 'lucide-react'
+import { LayoutDashboard, User, Settings, FileText } from 'lucide-react'
 
 const navItems = [
   { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { href: '/profile', label: 'Profile', icon: User },
+  { href: '/notes', label: 'Notes', icon: FileText },
   { href: '/settings', label: 'Settings', icon: Settings },
 ]
 
